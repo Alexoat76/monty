@@ -2,13 +2,25 @@
 
 # 0x19. C - Stacks, Queues - LIFO, FIFO.
 <div style="text-align: justify">
-	
-In this project, you should be to create an interpreter for Monty ByteCode files, utilizing Stacks (LIFO) and Queues (FIFO). Also included are [BrainFuck](https://en.wikipedia.org/wiki/Brainfuck) files. </div>
+
+# Getting Started :running:
+
+## Table of Contents
+* [AUTHORS](./AUTHORS)
+* [MIT License](./LICENSE)
+* [About](#about)
+* [Requirements](#requirements)
+* [Installing and using](https://github.com/Alexoat76/monty/edit/main/README.md#:~:text=in%20the%20project.-,Installing%20and%20Using,-%F0%9F%92%BE)
+* [Commands Overview](https://github.com/Alexoat76/monty/edit/main/README.md#:~:text=in%20the%20project.-,Installing%20and%20Using,-%F0%9F%92%BE)
+* [Dependences](#dependences)
+* [Credits](#credits)
+
+## About
+In this project, you should be to create an interpreter for Monty ByteCode files, utilizing Stacks (LIFO) and Queues (FIFO). 
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
 
 
-# Getting Started :running:
 
 ## Requirements :page_with_curl:
 
