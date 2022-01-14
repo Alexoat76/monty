@@ -67,12 +67,50 @@ Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) fo
 * All your header files should be include guarded. </div>
 <div style="text-align: justify">
 * You are expected to do the tasks in the order shown in the project.	
+
+## Installing and Using  :floppy_disk:
+
+Clone the repository into a new directory:
+
+```
+$ git clone https://github.com/Alexoat76/monty.git
+```
+Compile with the following:
+
+```
+$ gcc -Wall -Werror -Wextra -pedantic -std=c90 *.c -o monty
+```
+
+Run the interpreter on a file:
+
+```
+$ ./monty file.m
+```
+
+## Commands Overview  🔦
+
+* The Monty Interpreter will tokenize command inputs, ignoring all whitespaces and comments which start with a `#` sign. 
+* Lines can be empty and can contain any number of spaces before or after an opcode and its argument **(only the first opcode and/or argument is taken into account)**.
+
+Potential failures and their messages will be mentioned for each operation. Failures that can occur at this time include:
+
+- `USAGE` : *If given no file or too many arguments*
+- `Error` : Can't open file <file name>.  *If given invalid file*
+- `Error` : unknown instruction <opcode>.  *If unknown operation given*
+- `Error`: malloc failed.   *if malloc fails*
+		
+## Dependences :file_folder:
+
+* [monty.h](./monty.h): Header file containing definitions and prototypes for all types 
+	and functions written for the project `0x19. C - Stacks, Queues - LIFO, FIFO`.
+* [monty_main.c](./monty_main.c) - The entry point for `Monty Interpreter`.
+* [start_monty.c](./start_monty.c) - Functions to initialize the `Monty Interpreter` and returns the correct operation function.
+* [tokenizer.c](./tokenizer.c) - Contains the helper functions for tokenize.
+* [support_funct.c](./support_funct.c) - Contains the helper functions for the correct operation of `Monty Interpreter`.
+* [set_errors.c](./set_errors.c) - Functions for checking and exits given certain conditions. Other file(s): [def_errors_01.c](./def_errors_01.c) , [def_errors_02.c](./def_errors_02.c)
+* [stack_core.c](./stack_core.c) - Core functions to manipulate and change the linked list.
+* [opcode_functions_01.c](opcode_functions_01.c) - Functions for each `operation code`. Other file(s): [opcode_functions_02.c](opcode_functions_02.c), [opcode_functions_03.c](opcode_functions_03.c), [opcode_functions_04.c](opcode_functions_04.c)
 	
-## Header File :file_folder:
-
-* [monty.h](./monty.h): Header file containing definitions and prototypes for all types
-and functions written for the project 0x19. C - Stacks, Queues - LIFO, FIFO.
-
 ## Tasks :page_with_curl:
 
 * **0. push, pall**  :white_check_mark:
@@ -163,7 +201,8 @@ and functions written for the project 0x19. C - Stacks, Queues - LIFO, FIFO.
 	<ul>
 	<li>Usage: <code>nop</code></li>
 	</ul>
-	
+
+
 	
 ## Tests :heavy_check_mark:
 
