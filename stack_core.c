@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /*
- * File: stack.c
+ * File: stack_core.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */

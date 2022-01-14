@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /*
- * File: m_funct_03.c
+ * File: opcode_functions_03.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */

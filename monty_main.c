@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /*
- * File: m_main.c
+ * File: monty_main.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */

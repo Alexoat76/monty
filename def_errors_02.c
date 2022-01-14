@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /*
- * File: prnt_err_02.c
+ * File: def_errors_02.c
  * Author: Alex O. Arevalo T.
  * email: 3915@holbertonschool.com
  */
