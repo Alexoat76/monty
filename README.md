@@ -11,7 +11,7 @@
 * [About](#about)
 * [Requirements](#requirements)
 * [Installing and using](https://github.com/Alexoat76/monty/blob/main/README.md#installing-and-using--floppy_disk)
-* [Commands Overview](https://github.com/Alexoat76/monty/edit/main/README.md#:~:text=in%20the%20project.-,Installing%20and%20Using,-%F0%9F%92%BE)
+* [Commands Overview](https://github.com/Alexoat76/monty/blob/main/README.md#commands-overview--)
 * [Dependences](#dependences)
 * [Credits](#credits)
 
