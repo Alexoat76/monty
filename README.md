@@ -219,7 +219,7 @@ Potential failures and their messages will be mentioned for each operation. Fail
 	
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [bytecodes](./bytecodes): Folder of test files. Provided by Holberton School.
 	
 ## Credits
 
