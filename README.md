@@ -9,7 +9,7 @@
 * [AUTHORS](./AUTHORS)
 * [MIT License](./LICENSE)
 * [About](#about)
-* [Requirements](#requirements)
+* [Requirements](#requirements-page_with_curl)
 * [Installing and using](https://github.com/Alexoat76/monty/blob/main/README.md#installing-and-using--floppy_disk)
 * [Commands Overview](https://github.com/Alexoat76/monty/blob/main/README.md#commands-overview--)
 * [Dependences](https://github.com/Alexoat76/monty/blob/main/README.md#dependences-file_folder)
